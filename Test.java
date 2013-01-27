@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane.*;
-
 class Person{
 	private String fornavn;
 	private String etternavn;
@@ -45,7 +43,7 @@ class Person{
 class Test{
 	public static void main(String[]args){
 		
-		String navn = "Christian Dalhaug"; //showInputDialog("Navn: ");
+		String navn = "Christian Dalhaug";
 		String[] navnene = navn.split(" ");
 		String fornavn = "";
 		String etternavn = "";
@@ -61,7 +59,6 @@ class Test{
 		}
 		
 		Person a = new Person(fornavn, etternavn, alder);
-		
 		System.out.println(a.toString());
 		
 	}
